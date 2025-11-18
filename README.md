@@ -56,4 +56,4 @@ The platform uses relational database entities linked through foreign keys to ma
 
 ---
    ```bash
-   git clone https://github.com/<your-username>/<repo-name>.git
+   git clone https://github.com/sai-snehith2002/Task-Management-System.git

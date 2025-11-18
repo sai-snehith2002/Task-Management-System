@@ -47,8 +47,7 @@ The platform uses relational database entities linked through foreign keys to ma
 
 ---
 
-## 🚀 Tech Stack
-*(Edit based on your exact implementation)*  
+## 🚀 Tech Stack  
 - **Frontend:** HTML, CSS, JavaScript / React  
 - **Backend:** Django / NodeJS / Express / Flask  
 - **Database:** MySQL / PostgreSQL / SQLite  

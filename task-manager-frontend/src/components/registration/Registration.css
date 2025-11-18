@@ -1,0 +1,123 @@
+.form {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS474eedFxr7LU-A0j-Mac-DdtkSgWB48-PoweJa2nGp25I9mIhwvgPI0AyjgAIKBfe6-A&usqp=CAU');
+    padding: 20px 15px;
+    min-height: 250px;
+    max-width: 500px;
+    border-radius: 20px;
+    margin-top: 6%;
+    align-items: center;
+    border-color: black;
+
+    &:hover {
+        box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+    }
+}
+
+.title {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 5px;
+    margin: 0 5px;
+}
+.title::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: green;
+}
+
+input {
+    display: block;
+    outline: none;
+    padding: 15px 10px;
+    margin: 30px;
+    border: solid 1px transparent;
+    border-color: rgb(50, 47, 44);
+    background: none;
+    color: white;
+    width: 200px;
+    transition: border-color 1s;
+    border-radius: 10px;
+}
+
+input[type='text']:hover,
+input[type='email']:hover,
+input[type='password']:hover,
+.form button:hover {
+    /* Change border color on hover for inputs and button */
+    border-color: royalblue;
+}
+
+input:focus {
+    border-color: royalblue;
+}
+
+.form button {
+    padding: 10px;
+    color: white;
+    background: royalblue;
+    border: none;
+    width: 200px;
+    margin-left: 30px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.form button:hover {
+    background: rgb(114, 149, 255);
+}
+
+.action {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.load {
+    position: relative;
+    margin: 2px 5px;
+    padding-bottom: 5px;
+    border-bottom: solid 2px transparent;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.load.show {
+    border-bottom-color: royalblue;
+}
+
+.form a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin: 15px;
+    text-align: center;
+    transition: 0.5s;
+}
+.form a:hover {
+    color: royalblue;
+}
+
+.login {
+    display: none;
+}
+.reg {
+    display: none;
+}
+
+.show-page {
+    display: block;
+    animation: show-page 1s;
+}
+
+@keyframes show-page {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

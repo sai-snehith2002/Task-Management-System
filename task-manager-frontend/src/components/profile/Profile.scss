@@ -1,0 +1,57 @@
+.card {
+    width: 18rem;
+    margin: 0 auto;
+    margin-top: 100px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: box-shadow 0.3s ease;
+
+    &:hover {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+    }
+
+    .ok-title {
+        height: 80px;
+        font-size: 24px; /* Increase font size */
+        font-weight: bold;
+        background: #27ae60;
+        border-radius: 10px 10px 0 0;
+        display: flex;
+        align-items: center; /* Center text vertically */
+        justify-content: center; /* Center text horizontally */
+        color: white;
+        text-transform: uppercase; /* Uppercase title */
+    }
+
+    .card-body {
+        padding: 20px;
+
+        input {
+            width: calc(100% - 55px);
+            margin-bottom: 15px;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: box-shadow 0.3s ease;
+
+            &:hover {
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+            }
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            color: white;
+            padding: 8px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+
+            &:hover {
+                background-color: #0056b3;
+            }
+        }
+    }
+}

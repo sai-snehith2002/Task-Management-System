@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
+
+.card-form {
+    margin-top: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%; /* Adjust width as needed */
+    max-width: 500px; /* Set a maximum width */
+    border-radius: 10px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS474eedFxr7LU-A0j-Mac-DdtkSgWB48-PoweJa2nGp25I9mIhwvgPI0AyjgAIKBfe6-A&usqp=CAU');
+
+    &:hover {
+        box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3),
+        0 17px 17px 0 rgba(0, 0, 0, 0.15);
+    }
+    input {
+        color: black;
+    }
+    .form-title {
+        height: 80px;
+        font-size: 24px; /* Increase font size */
+        font-weight: bold;
+        background: #27ae60;
+        border-radius: 10px 10px 0 0;
+        display: flex;
+        align-items: center; /* Center text vertically */
+        justify-content: center; /* Center text horizontally */
+        color: white;
+        text-transform: uppercase; /* Uppercase title */
+    }
+
+    .form-body {
+        padding: 20px;
+
+        .row {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 15px; 
+
+            input[type='text'],
+            textarea {
+                width: calc(100% - 55px);
+                padding: 10px; /* Increase padding for input elements */
+                margin-bottom: 10px; /* Adjust margin between input elements */
+                border: 1px solid #ccc; /* Add borders for input elements */
+                border-radius: 5px;
+                transition: border-color 0.3s;
+
+                &:hover {
+                    border-color: #27ae60; /* Change border color on hover */
+                }
+            }
+
+            input[type='date'] {
+                /* Adjust date input style */
+                width: calc(100% - 55px);
+                padding: 10px;
+                margin-bottom: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                transition: border-color 0.3s;
+
+                &:hover {
+                    border-color: #27ae60; /* Change border color on hover */
+                }
+            }
+        }
+    }
+
+    .rule {
+        height: 2px;
+        background: #e8ebed;
+        margin: 0px 10px; 
+    }
+
+    .form-footer {
+        margin: 0 10px 15px 10px; 
+        padding: 15px 10px;
+        cursor: pointer;
+        a {
+            display: inline-block;
+            padding: 10px 20px; /* Adjust button padding */
+            background-color: #f4b710;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s; /* Smooth transition on hover */
+
+            &:hover {
+                background-color: #3ced2f; /* Darker color on hover */
+            }
+        }
+
+        span {
+            display: block; 
+        }
+    }
+
+    @media (min-width: 768px) {
+        .card-form {
+            width: 60%; 
+        }
+    }
+
+    @media (max-width: 480px) {
+        .card-form {
+            width: 90%; 
+        }
+    }
+}

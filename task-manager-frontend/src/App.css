@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+
+* {
+    padding: 5;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-image: url('https://img.freepik.com/free-vector/beautiful-decorative-soft-colorful-watercolor-texture-background_1055-14290.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+    /*background-color: rgb(128, 165, 216);*/
+}

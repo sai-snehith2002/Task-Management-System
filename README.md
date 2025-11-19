@@ -51,11 +51,7 @@ The platform uses relational database entities linked through foreign keys to ma
 - **Frontend:** HTML, CSS, JavaScript / React  
 - **Backend:** Django / NodeJS / Express / Flask  
 - **Database:** MySQL / PostgreSQL / SQLite  
-- **Authentication:** Session / Token-based  
-
----
-   ```bash
-   git clone https://github.com/sai-snehith2002/Task-Management-System.git
+- **Authentication:** Session / Token-based
 
 ## Frontend Interface
 
@@ -69,5 +65,11 @@ The platform uses relational database entities linked through foreign keys to ma
 <img width="749" height="346" alt="image" src="https://github.com/user-attachments/assets/183aca3f-72d5-4bce-8d1d-ac80d8152911" />
 
 - **Teams Page**
-<img width="753" height="371" alt="image" src="https://github.com/user-attachments/assets/194e458a-72df-44bc-a281-4ec7dee4c63f" />
+<img width="753" height="371" alt="image" src="https://github.com/user-attachments/assets/194e458a-72df-44bc-a281-4ec7dee4c63f" /> 
+
+---
+   ```bash
+   git clone https://github.com/sai-snehith2002/Task-Management-System.git
+
+
 
